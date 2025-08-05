@@ -4,7 +4,7 @@
 - [Hello World](#hello-world)
 
 ## Installing python
-- Download python package [link](https://www.python.org/ftp/python/3.13.5/python-3.13.5-amd64.exe). Then install at your machine.
+- Download python package [link](https://www.python.org/downloads/). Then install at your machine.
 - When installing process check the box ``Use admin privileges when installing py.exe`` and ``Add python.exe to PATH``
 - Check the package is installed. Go command prompt and type
     ```
