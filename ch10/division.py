@@ -12,5 +12,10 @@ while True:
     second_number = input("Second number: ")
     if second_number == 'q':
         break
-    answer = int(first_number) / int(second_number)
-    print(answer)
+    
+    try:
+        answer = int(first_number) / int(second_number)
+    except ZeroDivisionError:
+        print("You can't divided by 0!")
+    else:
+        print(answer)
