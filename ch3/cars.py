@@ -1,5 +1,3 @@
-from scipy.interpolate import insert
-
 cars = ['Mercedes','Audi','Lexus']
 print(cars)
 
