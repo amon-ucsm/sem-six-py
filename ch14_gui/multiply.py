@@ -1,6 +1,6 @@
 import tkinter
 import random
-class IntergerMultiply():
+class IntergerMultiply:
     def __init__(self):
         self.intmultiply = tkinter.Tk()
         self.intmultiply.title("Integer Multiply")
@@ -9,7 +9,7 @@ class IntergerMultiply():
         self.entry1 = tkinter.Entry(self.intmultiply, textvariable= self.var1, width= 20)
         self.entry1.pack()
         
-        self.mu1button = tkinter.Button(self.intmultiply, text="Multiply", commamd= self.multiply)
+        self.mu1button = tkinter.Button(self.intmultiply, text="Multiply", command= self.multiply)
         self.mu1button.pack()
     
     def multiply(self):
@@ -17,7 +17,7 @@ class IntergerMultiply():
         b = int(self.entry1.get())
         self.entry1.delete(0, "end")
         self.entry1.insert(0, a * b)
-        self.intmultiply.mainloop()
+        #self.intmultiply.mainloop()
     
 top = tkinter.Tk()
 top.title("Assignment")
