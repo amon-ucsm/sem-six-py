@@ -1,4 +1,4 @@
-filename = 'texts/guest_book.txt'
+filename = 'ch10/texts/guest_book.txt'
 
 with open(filename, 'w') as fiel_object:
     while True:

@@ -1,4 +1,4 @@
-filename = 'texts/poll.txt'
+filename = 'ch10/texts/poll.txt'
 
 with open(filename, 'a') as file_object:
     while True:
