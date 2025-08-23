@@ -11,3 +11,4 @@ for i in range(4):
     else:
         t.forward(50)
         t.left(90)
+t.done()

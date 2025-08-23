@@ -6,3 +6,4 @@ for i in range(9):
     t.forward(90)
     t.left(40)
 t.end_fill()
+t.done()
