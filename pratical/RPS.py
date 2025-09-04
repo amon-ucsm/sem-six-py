@@ -2,7 +2,7 @@
 import random
 computer = random.randint(1, 3)
 #print(computer)
-import json
+#import json
 def com_turn(num):
     if num == 1: return "R"
     elif num == 2: return "P"
@@ -19,7 +19,7 @@ def play():
     print(f"Computer vs. Player  : {get_com} vs. {get_user}")
     if get_user == get_com:
         print("Draw")
-        
+    print()
 print("Rock Paper Scissors Fame\n")
 count_num = int(input("How many times you want to play: "))
 
