@@ -53,4 +53,5 @@ square()
 turtle.end_fill()
 
 turtle.hideturtle()
-turtle.done()
+#turtle.done()
+turtle.mainloop()
